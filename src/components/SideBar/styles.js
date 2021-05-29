@@ -1,14 +1,16 @@
 import styled from "styled-components"
 
 export const SideBar = styled.div`
+  display: inline-block;
   position: fixed;
+  flex-direction: column;
   background-color: #2F2F2F;
   width: 300px;
   height: 100%;
 `;
 
 export const PaginationButton = styled.button`
-  margin-top: 100px;
+  margin-top: 150px;
   width: 100%;
   height: 50px;
   outline: none;
