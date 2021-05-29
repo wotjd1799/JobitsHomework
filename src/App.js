@@ -1,9 +1,14 @@
-import { default as Main } from './components'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import MainRouter from './router/MainRouter';
 
 function App() {
   return (
     <>
-      <Main/>
+      <Router>
+        <Switch>
+          <Route path='/' component={ MainRouter }/>
+        </Switch>
+      </Router>
     </>
   );
 }
