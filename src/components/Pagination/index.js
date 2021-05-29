@@ -1,10 +1,11 @@
-import * as S from "./styles"
 import SideBar from "./../SideBar"
+import * as S from "./styles"
 
 const Pagination = () => {
+
   return (
     <>
-      <SideBar/>
+      <SideBar paginationButtonColor={true} />
     </>
   );
 }
