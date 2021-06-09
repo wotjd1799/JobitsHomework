@@ -1,12 +1,18 @@
-import SideBar from "./../SideBar";
+import axios from "axios";
 import * as S from "./styles"
 
 const InfinityScroll = () => {
 
   return (
     <>
-      <SideBar infinityButtonColor={true} />
-      
+      <S.Body>
+        <>
+          <S.Subtitle>채용 의뢰</S.Subtitle>
+          <S.Containers>
+            <S.Container></S.Container>
+          </S.Containers>
+        </>
+      </S.Body>
     </>
   );
 };
